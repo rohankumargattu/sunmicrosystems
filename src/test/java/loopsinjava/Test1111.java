@@ -9,14 +9,15 @@ public class Test1111
 	public static void main(String[] args)
 	{
 		String x="jsblj kSHkbk hkdbk 4wn5kwkkbw wih 4iwh4h wr4rkj";
-		Pattern p=Pattern.compile("[w][a-zA-Z0-9]+");
+		Pattern p=Pattern.compile("[a-zA-Z0-9]+");
 		Matcher m=p.matcher(x);
 		while(m.find())
 		{
-			System.out.println(m.group());
+			if(m.group().startsWith("w"))
+			{
+				System.out.println(m.group());
+			}
 		}
-		
-		
 		
 		/*String[] words=x.split(" ");
 		int wsw=0;
