@@ -12,16 +12,16 @@ public class CollectingMethodsFromAClass
 {
 	public static void main(String[] args)
 	{
-		WebDriverManager.chromedriver().setup();
-		RemoteWebDriver driver=new ChromeDriver();
-		Actions a=new Actions(driver);
-		Method m[]=a.getClass().getMethods();
+		//WebDriverManager.chromedriver().setup();
+		String driver=new String();
+		//Actions a=new Actions(driver);
+		Method m[]=driver.getClass().getMethods();
 		int x=m.length;
 		System.out.println(x);
 		for(int i=0;i<x;i++)
 		{
 			System.out.println(m[i].getName());
 		}
-		driver.close();
+		//driver.close();
 	}
 }
