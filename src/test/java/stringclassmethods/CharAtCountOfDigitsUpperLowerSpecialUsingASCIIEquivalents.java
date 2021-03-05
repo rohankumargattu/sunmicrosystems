@@ -2,7 +2,7 @@ package stringclassmethods;
 
 import java.util.Scanner;
 
-public class CharAtCountOfDigitsUpperLowerSpecial 
+public class CharAtCountOfDigitsUpperLowerSpecialUsingASCIIEquivalents
 {
 	public static void main(String[] args) throws Exception
 	{
