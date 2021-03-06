@@ -1,6 +1,6 @@
 package interviewprograms;
 
-public class ReverseStringByPreservingSpaces1
+public class ReverseStringByPreservingSpaces
 {
 	public static void main(String[] args) throws Exception
 	{

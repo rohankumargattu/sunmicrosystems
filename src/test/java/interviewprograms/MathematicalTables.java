@@ -16,6 +16,5 @@ public class MathematicalTables
 				System.out.println(""+i+"*"+j+"="+(i*j));
 			}
 		}
-		
 	}
 }

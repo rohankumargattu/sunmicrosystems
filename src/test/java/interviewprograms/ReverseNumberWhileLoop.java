@@ -2,7 +2,7 @@ package interviewprograms;
 
 import java.util.Scanner;
 
-public class WhileLoopReverseNumber
+public class ReverseNumberWhileLoop
 {
 	public static void main(String[] args) throws Exception
 	{

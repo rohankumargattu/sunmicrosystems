@@ -9,7 +9,7 @@ public class FactorialOfANumber
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number");
 		int x=sc.nextInt();
-		int mul=1;
+		long mul=1;
 		for(int i=x;i>=1;i--)
 		{
 			mul=mul*(i);
