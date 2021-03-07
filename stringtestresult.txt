@@ -1,0 +1,3 @@
+No of lines are: 17
+No of words are: 99
+No of numeric values are: 23
